@@ -1,0 +1,26 @@
+tema: pescaria
+
+tabela: 
+ID
+cidade: pedreira- 10, santos- 100, campinas- 30, ubatuba- 150 / cada 1 peixe = 1000 reais
+quantidade
+
+{
+"id" : ...,
+"cidade" : ...,
+"QNTD" : ...,
+"STATUS" : ...,
+"EXCEDENTE" : ...,
+"MULTA" : ...,
+}
+
+banco > id, cidade, quantidade
+back > multa, excedente, status
+"multa quanto vai pagar", "qtd q escedeu(limite de cada cidade)" , "escedeu ou n"
+
+http://localhost:8080/pescaria/pesca
+
+quantidade > cidade = excedente
+Excedente != Status
+quantidade x 1000 = multa
+
